@@ -230,8 +230,38 @@ nav li a {
     opacity: 0.8;
 }
 
+.responsive-image {
+    max-width: 100%; /* Set the maximum width to 100% of the parent container */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+
 iframe {
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 50px; /* Smaller logo for mobile */
+    }
+
+    .slider .carousel-item img {
+        height: 50vh; /* Smaller height for carousel images */
+    }
+
+    .slider .carousel-item .carousel-caption {
+        padding: 20px 10px; /* Less padding for mobile */
+        font-size: 14px; /* Smaller text for mobile */
+    }
+
+    .mybtn {
+        font-size: 14px;
+        padding: 5px 10px; /* Smaller buttons for mobile */
+    }
+
+    .products .box {
+        height: auto; /* Responsive height for product boxes */
+    }
 }
