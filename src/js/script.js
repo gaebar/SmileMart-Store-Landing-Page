@@ -1,20 +1,42 @@
+
 function customOpenForm() {
-  document.getElementById("customMyForm").style.display = "block";
+  let form = document.getElementById("customMyForm");
+  let openButton = document.getElementById("custom-open-button");
+  if (form) {
+    form.style.display = "block";
+  }
+  if (openButton) {
+    openButton.style.display = "none";
+  }
 }
 
 function customCloseForm() {
-  document.getElementById("customMyForm").style.display = "none";
+  let form = document.getElementById("customMyForm");
+  if (form) {
+    form.style.display = "none";
+  }
 }
 
 async function setIframeSrc() {
-  const response = await fetch('https://demo.redwater-75eedb1d.eastus.azurecontainerapps.io/get-chatbot-token',{
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  });
-  const json = await response.json();
-
-  document.getElementById("chatbot-iframe").src = "https://webchat.botframework.com/embed/smileMartBot-bot?s=" + json.key;
+  try {
+    const response = await fetch('https://demo.redwater-75eedb1d.eastus.azurecontainerapps.io/get-chatbot-token', {
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const json = await response.json();
+    let iframe = document.getElementById("chatbot-iframe");
+    if (iframe) {
+      iframe.src = "https://webchat.botframework.com/embed/smileMartBot-bot?s=" + json.key;
+    }
+  } catch (e) {
+    console.error("Failed to set iframe source:", e);
+  }
 }
 
-setIframeSrc()
+
+// Call setIframeSrc once the DOM is fully loaded
+document.addEventListener("DOMContentLoaded", setIframeSrc);
