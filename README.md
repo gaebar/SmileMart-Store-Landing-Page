@@ -6,6 +6,18 @@
 This repository is temporary and has been set up for specific short-term purposes. The content, data, and code here may be updated, changed, or removed without prior notice. If you've come across this repository, please be aware that its longevity is not guaranteed, and it might be removed in the future. 
 If you have any questions or concerns related to this repository, please reach out to the repository maintainer.
 
+## Preview
+
+Here is a quick preview of the Smile Mart Chatbot in action:
+
+![Smile Mart Chatbot Demo](src/images/SmileMart-Chatbot.gif)
+
+For a more comprehensive view, check out the related video on YouTube:
+[Watch the Video](https://youtu.be/b2gngfuUa4w)
+
+
+## Overview
+
 ## TODO:
 - Rename the .env-sample to .env and add your own configuration settings
 - Landing Page for a store called Smile Mart 
