@@ -6,10 +6,12 @@ This project is the result of the TechBridge Fall 2023 capstone project that out
 
 The requirement of the capstone project was to use our knowledge of the Azure Portal and Java to create an application that could improve business processes. After a brainstorming session and with brilliant ideas, we concluded that an Assistant chatbot could significantly enhance customer engagement and streamline support services for Smile Mart, positioning the company to better compete with industry giants like Amazon, Etsy, Walmart, and eBay.
 
+See the application at [gaebar.github.io/SmileMart-Store-Landing-Page/src](https://gaebar.github.io/SmileMart-Store-Landing-Page/src)
 
-## Executive Summary
 
-Our project aims to revolutionize customer support at Smile Mart using the Smile Mart Assistant chatbot. Developed with Azure Cognitive Services and Azure Spring Apps, this solution is designed to streamline customer service operations, reduce wait times, and provide 24/7 assistance. This leads to improved customer experience and satisfaction. Operating on Azure's Basic/Standard tier, our chatbot promises efficiency, scalability, and adaptability.
+## Summary
+
+Our project aims to improve customer support at Smile Mart using the Smile Mart Assistant chatbot. Developed with Azure Cognitive Services and Azure Spring Apps, this solution is designed to streamline customer service operations, reduce wait times, and provide 24/7 assistance. This leads to improved customer experience and satisfaction. Operating on Azure's Consuption tier, our chatbot promises efficiency, scalability, and adaptability.
 
 
 ### Team Members:
@@ -25,10 +27,10 @@ Our project aims to revolutionize customer support at Smile Mart using the Smile
 We utilized Azure Cognitive Services for natural language processing, Azure Spring Apps for backend robustness, and GitHub Actions for continuous integration and deployment. This approach ensures a responsive, scalable, and secure chatbot solution.
 
 ## Integration with Azure Spring Boot
-This project integrates with a separate repository that utilizes Azure Spring Boot for 
+This project integrates with a separate Spring Boot app hosted on Azure for 
 generating temporary tokens, enhancing the security of the Smile Mart Assistant chatbot. For 
-more details on this security solution, visit the [Smile Mart Chatbot Security Upgrade 
-Repository](https://github.com/gaebar/SmileMart-AssistantBot-AzureSpringApp).
+more details on this solution, visit the [SmileMart Chatbot Spring Boot app 
+repository](https://github.com/gaebar/SmileMart-AssistantBot-AzureSpringApp).
 
 ## Preview
 
