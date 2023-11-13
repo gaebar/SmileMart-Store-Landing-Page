@@ -1,8 +1,10 @@
 # TechBridge Capstone: Smile Mart Assistant Chatbot
 
 ## Introduction
-The TechBridge Capstone project introduces an innovative customer support solution for Smile Mart: the Smile Mart Assistant chatbot. This project leverages cutting-edge technologies to transform the customer support experience in the Smile Mart retail environment.
 
+This project is the result of the TechBridge Fall 2023 capstone project that outlines the goals and strategies our team has planned for enhancing the business processes of Smile Mart through the development of an Assistant chatbot.
+
+The requirement of the capstone project was to use our knowledge of the Azure Portal and Java to create an application that could improve business processes. After a brainstorming session and with brilliant ideas, we concluded that an Assistant chatbot could significantly enhance customer engagement and streamline support services for Smile Mart, positioning the company to better compete with industry giants like Amazon, Etsy, Walmart, and eBay.
 
 
 ## Executive Summary
