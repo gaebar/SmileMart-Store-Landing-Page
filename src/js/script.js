@@ -16,6 +16,7 @@ function toggleChat() {
 async function setIframeSrc() {
   try {
     const response = await fetch('https://demo.redwater-75eedb1d.eastus.azurecontainerapps.io/get-chatbot-token', {
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
