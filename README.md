@@ -58,7 +58,7 @@ For a more comprehensive view, check out the related video on YouTube:
 
 ### Technical Limitations and Future Upgrades:
 
-- Currently limited to Azure Basic/Standard tier, with plans to evaluate upgrades for expanded 
+- Currently limited to Azure Consumption tier, with plans to evaluate upgrades for expanded 
 capabilities.
 - Development roadmap includes incorporating additional Azure services for a more personalized 
   user experience.
