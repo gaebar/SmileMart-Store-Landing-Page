@@ -40,7 +40,7 @@ Experience the Smile Mart Chatbot in action:
 ![Smile Mart Chatbot Demo](src/images/SmileMart-Chatbot.gif)
 
 For a more comprehensive view, check out the related video on YouTube:
-[Watch the Video](https://youtu.be/b2gngfuUa4w)
+[Watch the Video](https://youtu.be/2glpxxjUNIQ)
 
 
 ### Chatbot Features
